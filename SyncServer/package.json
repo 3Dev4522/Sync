@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "sync",
+  "version": "1.0.0",
+  "description": "synchronize server",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "joyoungjun",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "app-root-path": "^3.1.0",
+    "archiver": "^7.0.1",
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
